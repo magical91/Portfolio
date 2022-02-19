@@ -8,6 +8,7 @@ body {
     background-color: black;
 }
 
+/* header styles */
 header {
     padding: 15px 25px;
     background-color: rgb(70, 27, 70);
@@ -24,7 +25,7 @@ header h1 {
 }
 
 header a {
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: rgb(255, 255, 255);
 }
 
@@ -52,4 +53,11 @@ header nav ul li a:hover {
     color:aquamarine;
     text-decoration: wavy;
     transition: 1s;
+}
+/* end header styles */
+
+/* Image */
+div img {
+    max-width: 100%;
+    height: auto;
 }
