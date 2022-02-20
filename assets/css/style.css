@@ -106,14 +106,19 @@ header nav ul li a:hover {
     background-image: url("../images/tech.jpg");
     background-size: cover;
     background-position: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 40px;
     border-bottom: 3px solid rgb(0, 18, 38);
     border-top: 3px solid rgb(0, 18, 38);
 }
 
 .work-title {
-    color: rgb(217, 255, 0);
+    color: tomato;
     padding: 10px 0;
+    border-bottom: 2px double rgb(217, 255, 0);
 }
 
 .projects {
@@ -196,7 +201,7 @@ header nav ul li a:hover {
     }
 
     .about img {
-        margin: 0 225px;
+        margin: 0 250px;
         justify-content: center;
     }
 
