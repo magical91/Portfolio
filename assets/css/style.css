@@ -63,7 +63,7 @@ header nav ul li a:hover {
     height: auto;
 }
 
-/* section styles */
+/* section-title styles */
 .section-title {
     color: aquamarine;
     font-size: 50px;
@@ -72,14 +72,17 @@ header nav ul li a:hover {
     margin: 0 300px 20px 300px;
 }
 
-/* about me styles */
-.me {
+/* about me & contact me section styles */
+.content {
     background-color: rgb(70, 27, 70);
     border-radius: 25px;
     margin: 40px 80px;
     padding: 20px 40px;
+    box-shadow: 0 0 20px rgb(217, 255, 0);
+    border: 2px solid rgb(0, 0, .5);
 }
 
+/* about me styles */
 .about {
     display: flex;
     justify-content: space-evenly;
@@ -133,3 +136,18 @@ header nav ul li a:hover {
     transition: 1.5s;
     border: 2px solid white;
 }
+/* end my work styles */
+
+/* contact me section styles */
+.contact-point {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 23px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
