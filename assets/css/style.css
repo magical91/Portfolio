@@ -47,6 +47,7 @@ header nav ul li a {
     font-size: 1.40vw;
 }
 
+/* pseudo-class hover */
 header nav ul li a:hover {
     font-size: 1.50vw;
     color:aquamarine;
@@ -56,8 +57,48 @@ header nav ul li a:hover {
 /* end header styles */
 
 /* Image */
-div img {
+.hero img {
     max-width: 100%;
     height: auto;
     border: 2px solid black;
+}
+
+/* section styles */
+.content {
+    margin: 40px 80px;
+    padding: 20px 40px;
+}
+
+.section-title {
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: double 2px tomato;
+    margin: 0 300px 20px 300px;
+}
+
+/* about me styles */
+.me {
+    background-color: rgb(70, 27, 70);
+    border-radius: 25px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 1%;
+}
+
+.about img {
+    margin: 0 50px;
+}
+
+.about p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 100px 50px 0;
 }
