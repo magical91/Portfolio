@@ -216,3 +216,39 @@ header nav ul li a:hover {
     }
 }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .self {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .about img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .secondary-border {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-point {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header {
+        width: 85%;
+        margin: 0 25px;
+    }
+}
