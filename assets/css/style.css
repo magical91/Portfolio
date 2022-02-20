@@ -10,6 +10,7 @@ body {
 /* header styles */
 header {
     padding: 15px 25px;
+    margin: 0;
     background-color: rgb(70, 27, 70);
     display: flex;
     justify-content: space-between;
@@ -20,7 +21,6 @@ header h1 {
     color: rgb(217, 255, 0);
     font-weight: bolder;
     font-size: 65px;
-    margin: 0;
 }
 
 header a {
@@ -29,7 +29,8 @@ header a {
 }
 
 header nav {
-    margin: 50px 0 0 0;
+    margin-right: 70px;
+    padding: 50px 0 0 0;
 }
 
 header nav ul {
@@ -44,31 +45,25 @@ header nav ul {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.40vw;
+    font-size: 1.50vw;
 }
 
 /* pseudo-class hover */
 header nav ul li a:hover {
-    font-size: 1.50vw;
+    font-size: 1.60vw;
     color:aquamarine;
     text-decoration: wavy;
     transition: 1s;
 }
 /* end header styles */
 
-/* Image */
+/* background image */
 .hero img {
     max-width: 100%;
     height: auto;
-    border: 2px solid black;
 }
 
 /* section styles */
-.content {
-    margin: 40px 80px;
-    padding: 20px 40px;
-}
-
 .section-title {
     color: aquamarine;
     font-size: 50px;
@@ -81,8 +76,9 @@ header nav ul li a:hover {
 .me {
     background-color: rgb(70, 27, 70);
     border-radius: 25px;
+    margin: 40px 80px;
+    padding: 20px 40px;
 }
-
 
 .about {
     display: flex;
@@ -101,4 +97,39 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 25px 100px 50px 0;
+}
+/* end about me section */
+
+/* my work section styles */
+.work {
+    background-image: url("../images/tech.jpg");
+    background-size: cover;
+    background-position: 100%;
+    padding-bottom: 40px;
+}
+
+.work-title {
+    color: rgb(217, 255, 0);
+    padding: 10px 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px 50px;
+    padding: 0 100px;
+    margin: 0 100px;
+}
+
+.work-image {
+    width: 390px;
+    height: 390px;
+}
+
+.work-image:hover {
+    width: 410px;
+    height: 405px;
+    transition: 1.5s;
+    border: 2px solid white;
 }
