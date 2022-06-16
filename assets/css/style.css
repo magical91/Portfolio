@@ -60,7 +60,7 @@ header nav ul li a:hover {
 /* background image */
 .tech-image {
     height: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 /* section-title styles */
